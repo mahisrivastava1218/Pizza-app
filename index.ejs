@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza app</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="js/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/app.css">
+   
+</head>
+<body>
+    <!-- navbar starts -->
+    <!-- mx-auto for center -->
+    <!-- flex it give in right -->
+    <!-- py is padding top bottom 1rem -->
+    <!-- favicon.ico generate the icon for your title page -->
+    <nav class="container mx-auto flex items-center justify-between py-4">
+        <div>
+            <img src="img/pizza-l.png" alt="lgo">
+        </div>
+        <div>
+            <ul class="flex items-center">
+                <!-- use tailwindcss class ml-6 -->
+                <li class="ml-6"><a href="#">menu</a></li>
+                <li class="ml-6"><a href="#">offer</a></li>
+                <li class="ml-6"><a href="#">register</a></li>
+                <li class="ml-6"><a href="#">login</a></li>
+                <!-- inline block to give width height px horizontal left right or py is top and bottom-->
+                <li class="ml-6"><a href="#" class="inline-block px-4 py-2 rounded-full"><img src="/img/kart.png" alt="logos"></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- py padding 16 (4rem bottom or top) -->
+    <section class="hero py-16">
+        <div class="containet mx-auto flex items-center justify-between">
+            <!-- left div -->
+            <div class="w-1/2">
+                <!-- text-lg give the style -->
+                <!-- 6xl it give the bigger size -->
+               <h6 class="text-lg"><em>Are You Hungry?</em></h6>
+               <h1 class="text-6xl font-bold">Don't Wait,Order Now</h1>
+               <button class="px-6 py-2 rounded-full text-white font-bold mt-4 btn-primary">Order Now</button>
+            </div>
+            <!-- right div -->
+            <div class="w-1/2">
+                <img src="img/pizza.png" alt="img pizza">
+            </div>
+
+        </div>
+    </section>
+    <section class="menu container mx-auto py-8">
+        <h1 class="text-xl font-bold mb-8">Pizza is here</h1>
+        <div class="grid grid-cols-4 col-gap-12 row-gap-16">
+          <div class="w-64">
+            <img class="h-40 mb-4 mx-auto" src="img/food.jpg" alt="piz">
+            <!-- test-center is tailwind css class -->
+             <div class="text-center">
+             <h2 class="mb-4 text-lg">overload  veggie cheese</h2>
+             <span class="size py-1 px-4 rounded-full uppercase text-x5">small</span>
+            <div class="flex items-center justify-around mt-6">
+            <span class="font-bold text lg">240Rs</span>
+            <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                   <span>+</span>
+                   <span class="ml-4">Add</span>
+            </button>
+            </div>
+            </div>
+          </div>
+          <!-- 1div ends -->
+          <div class="w-64">
+            <img class="h-40 mb-4 mx-auto" src="img/f.jpg" alt="piz">
+            <!-- test-center is tailwind css class -->
+             <div class="text-center">
+             <h2 class="mb-4 text-lg">overload cheese</h2>
+             <span class="size py-1 px-4 rounded-full uppercase text-x5">small</span>
+            <div class="flex items-center justify-around mt-6">
+            <span class="font-bold text lg">240Rs</span>
+            <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                   <span>+</span>
+                   <span class="ml-4">Add</span>
+            </button>
+            </div>
+            </div>
+          </div>
+          <!-- 2nd div ends -->
+          <div class="w-64">
+            <img class="h-40 mb-4 mx-auto" src="img/f2.jpg" alt="piz">
+            <!-- test-center is tailwind css class -->
+             <div class="text-center">
+             <h2 class="mb-4 text-lg">special pizza</h2>
+             <span class="size py-1 px-4 rounded-full uppercase text-x5">small</span>
+            <div class="flex items-center justify-around mt-6">
+            <span class="font-bold text lg">240Rs</span>
+            <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                   <span>+</span>
+                   <span class="ml-4">Add</span>
+            </button>
+            </div>
+            </div>
+          </div>
+          <!-- 3rd -->
+          <div class="w-64">
+            <img class="h-40 mb-4 mx-auto" src="img/f3.jpg" alt="piz">
+            <!-- test-center is tailwind css class -->
+             <div class="text-center">
+             <h2 class="mb-4 text-lg">supreme pizza</h2>
+             <span class="size py-1 px-4 rounded-full uppercase text-x5">small</span>
+            <div class="flex items-center justify-around mt-6">
+            <span class="font-bold text lg">240Rs</span>
+            <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                   <span>+</span>
+                   <span class="ml-4">Add</span>
+            </button>
+            </div>
+            </div>
+          </div>
+          <!-- 4th -->
+          <div class="w-64">
+            <img class="h-40 mb-4 mx-auto" src="img/f4.jpg" alt="piz">
+            <!-- test-center is tailwind css class -->
+             <div class="text-center">
+             <h2 class="mb-4 text-lg">paratha pizza</h2>
+             <span class="size py-1 px-4 rounded-full uppercase text-x5">small</span>
+            <div class="flex items-center justify-around mt-6">
+            <span class="font-bold text lg">240Rs</span>
+            <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                   <span>+</span>
+                   <span class="ml-4">Add</span>
+            </button>
+            </div>
+            </div>
+          </div>
+          <!-- 5th -->
+          <div class="w-64">
+            <img class="h-40 mb-4 mx-auto" src="img/food6.jpg" alt="piz">
+            <!-- test-center is tailwind css class -->
+             <div class="text-center">
+             <h2 class="mb-4 text-lg">poket pizza</h2>
+             <span class="size py-1 px-4 rounded-full uppercase text-x5">small</span>
+            <div class="flex items-center justify-around mt-6">
+            <span class="font-bold text lg">240Rs</span>
+            <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                   <span>+</span>
+                   <span class="ml-4">Add</span>
+            </button>
+            </div>
+            </div>
+          </div>
+          <!-- 6th -->
+          <div class="w-64">
+            <img class="h-40 mb-4 mx-auto" src="img/f5.jpg" alt="piz">
+            <!-- test-center is tailwind css class -->
+             <div class="text-center">
+             <h2 class="mb-4 text-lg">spicy pizza</h2>
+             <span class="size py-1 px-4 rounded-full uppercase text-x5">small</span>
+            <div class="flex items-center justify-around mt-6">
+            <span class="font-bold text lg">240Rs</span>
+            <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                   <span>+</span>
+                   <span class="ml-4">Add</span>
+            </button>
+            </div>
+            </div>
+          </div>
+          <!-- 7th -->
+          <div class="w-64">
+            <img class="h-40 mb-4 mx-auto" src="img/f6.jpg" alt="piz">
+            <!-- test-center is tailwind css class -->
+             <div class="text-center">
+             <h2 class="mb-4 text-lg">sweet corn</h2>
+             <span class="size py-1 px-4 rounded-full uppercase text-x5">small</span>
+            <div class="flex items-center justify-around mt-6">
+            <span class="font-bold text lg">240Rs</span>
+            <button class="add-to-cart py-1 px-6 rounded-full flex items-center font-bold">
+                   <span>+</span>
+                   <span class="ml-4">Add</span>
+            </button>
+            </div>
+            </div>
+          </div>
+          <!-- 8th ends -->
+        </div>
+    </section>
+    
+    <script src="/js/app.js"></script>
+    
+</body>
+</html>
